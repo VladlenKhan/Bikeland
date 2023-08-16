@@ -1,0 +1,25 @@
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:48px;
+    padding-bottom:41px;
+    gap:32px;
+    flex-wrap: wrap;
+}
+.list__link {
+    color: #FFF;
+    font-family: Helvetica;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1440px) {
+    .list {
+        flex-wrap: nowrap;
+    }
+    .list__link {
+        font-size: 11px;
+    }
+    
+}
