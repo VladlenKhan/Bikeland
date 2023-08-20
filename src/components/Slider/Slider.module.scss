@@ -1,0 +1,19 @@
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+  .wrapper {
+    padding: 50px 130px;
+    .mySwiper {
+      height: 100%;
+      
+        
+    }
+    &__block {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+   
+  }
+}

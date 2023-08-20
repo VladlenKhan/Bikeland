@@ -1,0 +1,33 @@
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 100px;
+
+  .block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    &__button {
+      margin-top: 46px;
+      text-align: center;
+
+      a {
+        text-decoration: none;
+        width: 229px;
+        height: 59px;
+        color: #fff;
+        font-family: Helvetica;
+        font-size: 24px;
+        font-weight: 700;
+        border-radius: 110px;
+        background: #bb1d1e;
+        box-shadow: 0px 0px 30px 0px rgba(187, 29, 30, 0.3);
+        padding: 18px 27px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}

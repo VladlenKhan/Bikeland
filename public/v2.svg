@@ -1,0 +1,18 @@
+<svg width="150" height="91" viewBox="0 0 150 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 110">
+<circle id="Ellipse 62" cx="31" cy="16" r="3" fill="#BB1D1E"/>
+<circle id="Ellipse 63" cx="126" cy="67" r="11.5" stroke="#BB1D1E" stroke-width="5"/>
+<circle id="Ellipse 66" cx="24" cy="67" r="11.5" stroke="#BB1D1E" stroke-width="5"/>
+<path id="Ellipse 64" d="M145.592 73.5484C150.5 57 138 45.5 125.519 46C113.694 46 105 55.2537 105 67.2258C105 77.6129 114.367 88 125.519 88C127.006 88 131.318 87.5484 134.44 85.7419" stroke="#BB1D1E" stroke-width="5" stroke-linecap="round"/>
+<circle id="Ellipse 65" cx="141" cy="80" r="3" fill="#BB1D1E"/>
+<circle id="Ellipse 67" cx="24" cy="67" r="21.5" stroke="#BB1D1E" stroke-width="5"/>
+<path id="Vector 5" d="M22.5 15C20 14.3334 14.5 14.3 12.5 19.5L60.5 48" stroke="#BB1D1E" stroke-width="5" stroke-linecap="round"/>
+<path id="Vector 3" d="M105 21C108.606 18.8363 109.232 9.46582 109.076 3.73362C109.055 2.963 109.86 2.43163 110.547 2.78292C117.992 6.59436 131.147 13.902 134.5 18C137.792 22.0237 137.433 27.1903 136.71 29.829C136.598 30.2366 136.22 30.4951 135.799 30.5331C131.143 30.9534 122.829 35.3479 110 42C99.6524 47.3654 95.8224 61.7271 95.08 69.0775C95.0272 69.5995 94.5935 70 94.0689 70H54.5C53.9477 70 53.5 69.5523 53.5 69V66C53.5 61 56 51.5 65.5 42C75 32.5 100 24 105 21Z" stroke="#BB1D1E" stroke-width="5"/>
+<path id="Vector 4" d="M100.5 23C92.8333 19.1667 76.2 11.9 71 13.5C64.5 15.5 58 25.5 57 27.5M36.5 24.5L77.5 33.5" stroke="#BB1D1E" stroke-width="5" stroke-linecap="round"/>
+<g id="Vector 6">
+<path d="M26.2209 64.8221L57.5 52.5C55.8333 56.6667 53.5 58 53.5 70H27.1504C25.6866 70 24.5 68.8134 24.5 67.3496C24.5 66.2336 25.1826 65.2311 26.2209 64.8221Z" fill="white"/>
+<path d="M114.5 40L125.5 67M57.5 52.5L26.2209 64.8221C25.1826 65.2311 24.5 66.2336 24.5 67.3496V67.3496C24.5 68.8134 25.6866 70 27.1504 70H53.5C53.5 58 55.8333 56.6667 57.5 52.5Z" stroke="#BB1D1E" stroke-width="5" stroke-linecap="round"/>
+</g>
+<path id="Vector 7" d="M67 40.5L97.5 58.5M105 45.5L85.5 29.5M108 16L136.5 22" stroke="#BB1D1E" stroke-width="5" stroke-linecap="round"/>
+</g>
+</svg>

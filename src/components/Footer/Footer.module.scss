@@ -1,0 +1,122 @@
+.footer {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  .container {
+    max-width: 1920px;
+    margin: 0 auto;
+    .wrapper {
+      padding: 70px 130px;
+
+      &__logo {
+        text-align: center;
+      }
+      .block {
+        margin-top: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        &__item {
+          width: 33%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+        &__title {
+          color: #fff;
+          font-family: Helvetica;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        &__desc {
+          color: #fff;
+          font-family: Helvetica;
+          font-size: 100%;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-align: center;
+        }
+      }
+      .contact {
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 300px;
+        &__title {
+          color: #fff;
+          text-align: center;
+          font-family: Helvetica;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 30px;
+        }
+        &__img {
+          margin-top: 43px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 54px;
+        }
+
+        &__number {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+          flex-wrap: wrap;
+          gap: 17px;
+        }
+        .item {
+          padding: 11px 0;
+          color: #fff;
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 30px;
+            color: #fff;
+            text-decoration: none;
+        
+          }
+        }
+      }
+      .icons {
+        display: flex;
+        padding: 0 374px;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        &__img {
+      
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+      }
+      .policy {
+        margin-top:51px;
+        text-align: center;
+        color: #fff;
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 100%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}

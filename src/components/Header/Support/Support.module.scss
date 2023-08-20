@@ -1,0 +1,37 @@
+.support {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 72px;
+    border: 0px solid #BB1D1E;
+    background: #FFF;
+    box-shadow: 0px 0px 35px 0px rgba(187, 29, 30, 0.37);
+    text-decoration: none;
+  
+    &__text {
+      margin-left: 14px;
+      color: #BB1D1E;
+      font-family: Helvetica;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  
+    @media screen and (max-width: 1440px) {
+      width: 100%;
+      padding: 8.7px;
+      box-sizing: border-box;
+      margin-right: 130px;
+  
+      &__icon {
+        transform: scale(0.8);
+      }
+  
+      &__text {
+        font-size: 14px;
+        margin-left: 3px;
+      }
+    }
+  }
+  

@@ -1,0 +1,139 @@
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  .wrapper {
+    padding: 50px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 28px;
+
+    &__item2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 45px;
+      p {
+        color: #000;
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      .form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        &__label {
+          color: #000;
+          font-family: Helvetica;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          padding-top: 30px;
+        }
+        &__input {
+          width: 812px;
+          height: 62px;
+          border-radius: 15px;
+          background: #f0f0f0;
+          border: none;
+          outline: none;
+          box-sizing: border-box;
+          padding: 13px 0 13px 27px;
+          color: #afafaf;
+        }
+        &__input[placeholder] {
+          color: #000;
+          font-family: Helvetica;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        .check {
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+
+          &__item {
+            display: flex;
+            flex-direction: column;
+            gap: 34px;
+          }
+        }
+        &__button {
+          width: 295px;
+          height: 67px;
+          border-radius: 15px;
+          background: #bb1d1e;
+          box-shadow: 0px 0px 15px 0px rgba(187, 29, 30, 0.3);
+          box-sizing: border-box; 
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        } 
+        &__link {
+            color: #fff;
+            text-align: center;
+            font-family: Helvetica;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration: none;
+          }
+      }
+    }
+  }
+  .title {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  .block {
+    width: 820px;
+    height: 100%;
+    border-radius: 15px;
+    background: #f0f0f0;
+
+    &__bg {
+      border-radius: 15px 15px 0 0;
+      background: url("/founder.png") no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 674px;
+      padding: 16px;
+    }
+    &__img {
+      float: right;
+    }
+    &__text {
+      padding: 35px 97px;
+
+      p {
+        color: #000;
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}

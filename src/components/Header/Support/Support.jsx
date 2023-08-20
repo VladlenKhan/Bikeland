@@ -1,4 +1,4 @@
-import styles from './Support.module.css';
+import styles from './Support.module.scss';
 
 const Support = () => {
     return ( 
